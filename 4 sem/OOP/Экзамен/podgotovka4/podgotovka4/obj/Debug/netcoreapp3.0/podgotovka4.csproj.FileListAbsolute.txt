@@ -1,0 +1,11 @@
+D:\OOP\podgotovka4\podgotovka4\bin\Debug\netcoreapp3.0\podgotovka4.exe
+D:\OOP\podgotovka4\podgotovka4\bin\Debug\netcoreapp3.0\podgotovka4.deps.json
+D:\OOP\podgotovka4\podgotovka4\bin\Debug\netcoreapp3.0\podgotovka4.runtimeconfig.json
+D:\OOP\podgotovka4\podgotovka4\bin\Debug\netcoreapp3.0\podgotovka4.runtimeconfig.dev.json
+D:\OOP\podgotovka4\podgotovka4\bin\Debug\netcoreapp3.0\podgotovka4.dll
+D:\OOP\podgotovka4\podgotovka4\bin\Debug\netcoreapp3.0\podgotovka4.pdb
+D:\OOP\podgotovka4\podgotovka4\obj\Debug\netcoreapp3.0\podgotovka4.csprojAssemblyReference.cache
+D:\OOP\podgotovka4\podgotovka4\obj\Debug\netcoreapp3.0\podgotovka4.AssemblyInfoInputs.cache
+D:\OOP\podgotovka4\podgotovka4\obj\Debug\netcoreapp3.0\podgotovka4.AssemblyInfo.cs
+D:\OOP\podgotovka4\podgotovka4\obj\Debug\netcoreapp3.0\podgotovka4.dll
+D:\OOP\podgotovka4\podgotovka4\obj\Debug\netcoreapp3.0\podgotovka4.pdb
