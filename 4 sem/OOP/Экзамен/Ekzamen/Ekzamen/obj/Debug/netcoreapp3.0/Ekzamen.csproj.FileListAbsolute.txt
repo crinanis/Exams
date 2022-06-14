@@ -1,0 +1,11 @@
+D:\OOP\Ekzamen\Ekzamen\obj\Debug\netcoreapp3.0\Ekzamen.csprojAssemblyReference.cache
+D:\OOP\Ekzamen\Ekzamen\obj\Debug\netcoreapp3.0\Ekzamen.AssemblyInfoInputs.cache
+D:\OOP\Ekzamen\Ekzamen\obj\Debug\netcoreapp3.0\Ekzamen.AssemblyInfo.cs
+D:\OOP\Ekzamen\Ekzamen\bin\Debug\netcoreapp3.0\Ekzamen.exe
+D:\OOP\Ekzamen\Ekzamen\bin\Debug\netcoreapp3.0\Ekzamen.deps.json
+D:\OOP\Ekzamen\Ekzamen\bin\Debug\netcoreapp3.0\Ekzamen.runtimeconfig.json
+D:\OOP\Ekzamen\Ekzamen\bin\Debug\netcoreapp3.0\Ekzamen.runtimeconfig.dev.json
+D:\OOP\Ekzamen\Ekzamen\bin\Debug\netcoreapp3.0\Ekzamen.dll
+D:\OOP\Ekzamen\Ekzamen\bin\Debug\netcoreapp3.0\Ekzamen.pdb
+D:\OOP\Ekzamen\Ekzamen\obj\Debug\netcoreapp3.0\Ekzamen.dll
+D:\OOP\Ekzamen\Ekzamen\obj\Debug\netcoreapp3.0\Ekzamen.pdb
