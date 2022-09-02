@@ -1,0 +1,6 @@
+2022-06-25 04:04:29 INFO  Servlet:20 - Sat Jun 25 04:04:29 MSK 2022, URI: /OK-1.0-SNAPSHOT/, host: localhost, port: 8080, locale: ru_RU
+2022-06-25 04:04:32 INFO  Servlet:20 - Sat Jun 25 04:04:32 MSK 2022, URI: /OK-1.0-SNAPSHOT/, host: localhost, port: 8080, locale: be
+2022-06-25 04:04:36 INFO  Servlet:20 - Sat Jun 25 04:04:36 MSK 2022, URI: /OK-1.0-SNAPSHOT/welcome.jsp, host: localhost, port: 8080, locale: be
+2022-06-25 04:04:37 ERROR Servlet:29 - 404
+2022-06-25 04:04:48 INFO  Servlet:20 - Sat Jun 25 04:04:48 MSK 2022, URI: /OK-1.0-SNAPSHOT/welcome.jsp, host: localhost, port: 8080, locale: be
+2022-06-25 04:04:48 INFO  Servlet:34 - OK 200
