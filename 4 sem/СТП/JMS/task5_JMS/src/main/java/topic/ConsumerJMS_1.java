@@ -1,0 +1,43 @@
+package topic;
+
+import com.sun.messaging.ConnectionConfiguration;
+import com.sun.messaging.ConnectionFactory;
+import model.Article;
+
+import javax.jms.*;
+
+public class ConsumerJMS_1 implements MessageListener {
+
+    public ConsumerJMS_1() {
+/*
+        Модель подтверждения получения сообщения
+        AUTO_ACKNOWLEDGE (используется по умолчанию)
+           посылает подтверждение как только успешно выполниться onMessage()
+*/
+        ConnectionFactory factory = new ConnectionFactory();
+        try (JMSContext context = factory.createContext("admin", "admin", JMSContext.AUTO_ACKNOWLEDGE)) {
+            factory.setProperty(ConnectionConfiguration.imqAddressList, "mq://127.0.0.1:7676;mq://127.0.0.1:7676");
+
+            Destination destination = context.createTopic("Article");
+            JMSConsumer consumer = context.createConsumer(destination);
+            consumer.setMessageListener(this);
+            Thread.sleep(100000);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Override
+    public void onMessage(Message message) {
+        try {
+            System.out.println("New message:");
+            System.out.println(message.getBody(Article.class));
+        } catch (JMSException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void main(String[] args) {
+        new ConsumerJMS_1();
+    }
+}
