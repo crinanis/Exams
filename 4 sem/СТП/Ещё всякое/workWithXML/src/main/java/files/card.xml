@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<cards xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="shema.xsd">
+
+    <card id="c1">
+        <name>Igor</name>
+        <number>34</number>
+        <sum>13</sum>
+    </card>
+
+    <card id="c2">
+        <name>Diman</name>
+        <number>123</number>
+        <sum>20007</sum>
+    </card>
+
+
+</cards>
