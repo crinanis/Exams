@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <script type="text/javascript">
+        function Get(){
+            fetch('http://localhost:5000/api', {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+        }
+
+        function Put(){
+            fetch('http://localhost:5000/api', {
+                method: 'PUT',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            }).then(res => res.json()).then(data => document.getElementById('result').innerHTML = JSON.stringify(data))
+        }
+
+        function Post(){
+            fetch('http://localhost:5000/api', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            }).then(res => res.json()).then(data => document.getElementById('result').innerHTML = JSON.stringify(data))
+        }
+
+        function Delete(){
+            fetch('http://localhost:5000/api', {
+                method: 'DELETE',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            }).then(res => res.json()).then(data => document.getElementById('result').innerHTML = JSON.stringify(data))
+        }
+    </script>
+</head>
+<body>
+    <input type="button" name="btn1" value="GET" onclick="Get()">
+    <input type="button" name="btn2" value="POST" onclick="Post()">
+    <input type="button" name="btn3" value="PUT" onclick="Put()">
+    <input type="button" name="btn4" value="DELETE" onclick="Delete()">
+    <div id="result"></div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<html>
+<head>
+    <script type="text/javascript">
+        function getFile(){
+            fetch("http://localhost:5000/form/get", {
+                method: "GET",
+                headers: {
+                    'Content-Type': 'multipart/form-data',
+                }
+            }).then(response => {
+                console.log(response);
+            });
+        }
+    </script>
+</head>
+<body>
+
+<form action="http://localhost:5000/form" method="POST" enctype="multipart/form-data">
+    <input type="file" name="file1"  />
+    <input type="submit" value="Submit" />
+    <input type="button" name="button" value="get File" onclick="getFile()"/>
+    <a href="http://localhost:5000" onclick="getFile()"/>
+</form>
+</body>
+</html>
